@@ -72,8 +72,8 @@ with open("save.txt", "w") as f:
 
 
 # Todo: 
+# test it on windows vm 
 # add a functionallity for delete the apps of single apps from the list 
 # make runnable for unix systems 
-# test it on windows vm 
 # find a better design of the app 
 
