@@ -1,5 +1,7 @@
 # rock-your-day
 
+The main goal of ryd is to improve yout workflow.
+
 Simple app to start your day like a rock star!
 
 Automate the start of apps you want to use in your next session by adding them in your rock stage! 
