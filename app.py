@@ -4,7 +4,8 @@ import os
 
 # holds the whole app
 root = tk.Tk()
-
+root.configure(bg="#EAE9E9")
+root.title(f"R.Y.D")
 # append the files 
 apps = []
 
@@ -28,7 +29,7 @@ def addApp():
     apps.append(filename)
     print(filename)
     for app in apps:
-        label = tk.Label(frame, text=app, bg="#3A6351")
+        label = tk.Label(frame, text=app, bg="#000000")
 
 # run the app 
 def runApps():
@@ -37,21 +38,21 @@ def runApps():
 
 
 # create canvas
-canvas = tk.Canvas(root, height=700, width=700, bg="#393232")
+canvas = tk.Canvas(root, height=600, width=700, bg="#293241")
 # attach the canvas to the root
 canvas.pack()
 
 # frame in the middle
-frame = tk.Frame(root, bg="#F2EDD7")
-frame.place(relwidth=0.8, relheight=0.8, relx=0.1, rely=0.1)
+frame = tk.Frame(root, bg="#EAE9E9")
+frame.place(relwidth=0.8, relheight=0.7, relx=0.1, rely=0.1)
 
 # buttons 
 # open files 
-openFile = tk.Button(root, text="open File", padx=10, pady=5, fg="white", bg="#F58634", command=addApp)
+openFile = tk.Button(root, text="open File", padx=20, pady=5, fg="#DEEEEA", bg="#ef6c26", command=addApp)
 openFile.pack()
 
 # run apps 
-runApps = tk.Button(root, text="run Apps", padx=10, pady=5, fg="white", bg="#F58634", command=runApps)
+runApps = tk.Button(root, text="run Apps", padx=20, pady=5, fg="#DEEEEA", bg="#ef6c26", command=runApps)
 runApps.pack()
 
 # populate the saved apps on the screen
