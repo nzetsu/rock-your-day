@@ -1,6 +1,6 @@
 # rock-your-day
 
-The main goal of ryd is to improve yout workflow.
+The main goal of ryd is to improve yout workflow by allowing you to plan the automatically start of softwares  in your next session.
 
 Simple app to start your day like a rock star!
 
